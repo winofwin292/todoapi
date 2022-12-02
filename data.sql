@@ -21,7 +21,7 @@
 
 LOCK TABLES `categories` WRITE;
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
-INSERT INTO `categories` (id, code, desctiption, name, userId) VALUES (1,'SACHKYNANG','Sách kỹ năng','Sách Kỹ Năng',2),(3,'SACHHOCTHUAT','Sách học thuật','Sách Học Thuật',2);
+INSERT INTO `categories` (id, code, description, name, userId) VALUES (1,'SACHKYNANG','Sách kỹ năng','Sách Kỹ Năng',2),(3,'SACHHOCTHUAT','Sách học thuật','Sách Học Thuật',2);
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 UNLOCK TABLES;
 
