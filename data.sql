@@ -40,7 +40,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `course_formats` WRITE;
 /*!40000 ALTER TABLE `course_formats` DISABLE KEYS */;
-INSERT INTO `course_formats` (id, courseId, formatId) VALUES (1,1,1),(2,1,2),(16,3,1),(17,3,2),(18,2,1),(19,2,2),(30,16,2),(31,16,1);
+INSERT INTO `course_formats` (id, courseId, formatsId) VALUES (1,1,1),(2,1,2),(16,3,1),(17,3,2),(18,2,1),(19,2,2),(30,16,2),(31,16,1);
 /*!40000 ALTER TABLE `course_formats` ENABLE KEYS */;
 UNLOCK TABLES;
 
